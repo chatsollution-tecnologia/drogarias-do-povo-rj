@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 550 250" width="550" height="250">
+  <rect width="550" height="250" fill="#FFFFFF" rx="8" />
+  
+  <!-- Logo Icon: 4 Petals with star center -->
+  <g transform="translate(90, 80)">
+    <!-- Top-Left Petal (Yellow) -->
+    <path d="M0,0 Q-45,-15 -60,-60 Q-15,-45 0,0" fill="#FFC200" />
+    <!-- Top-Right Petal (Red) -->
+    <path d="M0,0 Q15,-45 60,-60 Q45,-15 0,0" fill="#E31B23" />
+    <!-- Bottom-Right Petal (Yellow) -->
+    <path d="M0,0 Q45,15 60,60 Q15,45 0,0" fill="#FFC200" />
+    <!-- Bottom-Left Petal (Red) -->
+    <path d="M0,0 Q-15,45 -60,60 Q-45,15 0,0" fill="#E31B23" />
+    
+    <!-- White center 4-point star accent cutout -->
+    <path d="M0,-12 Q0,0 12,0 Q0,0 0,12 Q0,0 -12,0 Q0,0 0,-12 Z" fill="#FFFFFF" />
+  </g>
+  
+  <!-- Right Text Stack -->
+  <text x="165" y="52" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="32" fill="#E31B23">Drogarias</text>
+  <text x="165" y="112" font-family="'Plus Jakarta Sans', Arial, sans-serif" font-weight="800" font-size="64" fill="#E31B23" letter-spacing="-1">Exclusiva</text>
+  <text x="360" y="148" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="28" fill="#E6A100" letter-spacing="3">POPULAR</text>
+  
+  <!-- Bottom Slogan -->
+  <text x="275" y="210" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="24" fill="#E31B23" text-anchor="middle">Sua saúde. Sua economia.</text>
+</svg>

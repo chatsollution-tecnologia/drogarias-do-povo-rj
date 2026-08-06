@@ -1,0 +1,6 @@
+{
+  "name": "Drogarias do Povo RJ",
+  "description": "Site institucional estático das Drogarias do Povo RJ — Unidades em Costa Barros e Duque de Caxias.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="600" height="200">
+  <rect width="600" height="200" fill="#F7C415" rx="8" />
+  <rect x="200" y="42" width="370" height="92" rx="46" fill="#EEF2F6" opacity="0.95" />
+  
+  <!-- Cross with capsule -->
+  <g transform="translate(115, 100)">
+    <!-- White outer border -->
+    <path d="M-45,-18 L-18,-18 L-18,-45 A10,10 0 0,1 -8,-55 L8,-55 A10,10 0 0,1 18,-45 L18,-18 L45,-18 A10,10 0 0,1 55,-8 L55,8 A10,10 0 0,1 45,18 L18,18 L18,45 A10,10 0 0,1 8,55 L-8,55 A10,10 0 0,1 -18,45 L-18,18 L-45,18 A10,10 0 0,1 -55,8 L-55,-8 A10,10 0 0,1 -45,-18 Z" fill="#FFFFFF" />
+    <!-- Red Cross -->
+    <path d="M-38,-12 L-12,-12 L-12,-38 A4,4 0 0,1 -8,-42 L8,-42 A4,4 0 0,1 12,-38 L12,-12 L38,-12 A4,4 0 0,1 42,-8 L42,8 A4,4 0 0,1 38,12 L12,12 L12,38 A4,4 0 0,1 8,42 L-8,42 A4,4 0 0,1 -12,38 L-12,12 L-38,12 A4,4 0 0,1 -42,8 L-42,-8 A4,4 0 0,1 -38,-12 Z" fill="#E31B23" />
+    
+    <!-- Tilted Capsule (Pill) -->
+    <g transform="rotate(-38) translate(0,0)">
+      <!-- Top Red -->
+      <path d="M-15,-30 A15,15 0 0,1 15,-30 L15,0 L-15,0 Z" fill="#E31B23" stroke="#FFFFFF" stroke-width="2.5" />
+      <!-- Bottom Orange -->
+      <path d="M-15,0 L15,0 L15,30 A15,15 0 0,1 -15,30 Z" fill="#FF8800" stroke="#FFFFFF" stroke-width="2.5" />
+    </g>
+  </g>
+  
+  <text x="238" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-weight="800" font-size="19" fill="#E31B23" letter-spacing="3">DROGARIA</text>
+  <text x="232" y="124" font-family="'Plus Jakarta Sans', sans-serif" font-weight="900" font-size="64" fill="#203380" letter-spacing="-1">META</text>
+  <text x="248" y="160" font-family="'Plus Jakarta Sans', sans-serif" font-weight="600" font-size="16" fill="#2B2B2B">Nossa meta é cuidar da sua saúde</text>
+</svg>

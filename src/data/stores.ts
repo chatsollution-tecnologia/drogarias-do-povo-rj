@@ -1,0 +1,40 @@
+import { Store } from '../types';
+
+export const STORES: Store[] = [
+  {
+    id: 'costa-barros',
+    name: 'Farmácia do Povo de Costa Barros',
+    banner: 'Exclusiva',
+    bannerLogo: '/drogarias-exclusiva.svg',
+    razaoSocial: 'FARMACIA DO POVO DE COSTA BARROS LTDA',
+    cnpj: '02.879.495/0001-04',
+    address: 'Rua Ourique, 850, Loja B — Brás de Pina — Rio de Janeiro/RJ — CEP 21011-130',
+    whatsApp: '(21) 97021-5636',
+    whatsAppUrl: 'https://wa.me/5521970215636',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Rua+Ourique+850+Loja+B+Bras+de+Pina+Rio+de+Janeiro+RJ',
+  },
+  {
+    id: 'duque-de-caxias',
+    name: 'Drogaria do Povo de Duque de Caxias',
+    banner: 'Drogaria Meta',
+    bannerLogo: '/drogaria-meta.svg',
+    razaoSocial: 'DROGARIA DO POVO DE DUQUE DE CAXIAS LTDA',
+    cnpj: '53.326.006/0001-10',
+    address: 'Rua Expedicionário Aquino de Araújo, 502, Loja — Engenho do Porto — Duque de Caxias/RJ — CEP 25015-100',
+    whatsApp: '(21) 99215-5296',
+    whatsAppUrl: 'https://wa.me/5521992155296',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Rua+Expedicionario+Aquino+de+Araujo+502+Engenho+do+Porto+Duque+de+Caxias+RJ',
+  },
+  {
+    id: 'exclusiva-rj',
+    name: 'Drogaria Exclusiva RJ',
+    banner: 'Exclusiva',
+    bannerLogo: '/drogarias-exclusiva.svg',
+    razaoSocial: 'DROGARIA EXCLUSIVA RJ LTDA',
+    cnpj: '62.242.894/0001-83',
+    address: 'Rua Valença, 0, Quadra 60, Lote 24, Loja B — Parque Lafaiete — Duque de Caxias/RJ — CEP 25015-590',
+    whatsApp: '(21) 96697-4475',
+    whatsAppUrl: 'https://wa.me/5521966974475',
+    mapsUrl: 'https://www.google.com/maps/search/?api=1&query=Rua+Valenca+Quadra+60+Lote+24+Loja+B+Parque+Lafaiete+Duque+de+Caxias+RJ',
+  },
+];
